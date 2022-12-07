@@ -18,10 +18,10 @@
       {
         "trailingComma": "all",
         "endOfLine": "lf",
-        "semi": false,
+        "semi": true,
         "singleQuote": true,
         "printWidth": 80,
-        "tabWidth": 2
+        "tabWidth": 4
       }
     ]
   }
