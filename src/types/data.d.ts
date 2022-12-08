@@ -1,13 +1,13 @@
 // ポケモン
-export Pokemon = {
-  id: number,
-  name: string,
-  firstType: number,
-  secondType: number
-}
+export type Pokemon = {
+    id: number;
+    name: string;
+    firstType: number;
+    secondType: number;
+};
 
 // ポケモンのタイプ
-export PokemonType = {
-  id: number,
-  name: string
-}
+export type PokemonType = {
+    id: number;
+    name: string;
+};
