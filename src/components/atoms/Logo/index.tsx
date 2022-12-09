@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import LOGO_IMG from '../../../../public/kao_oboerarenai_man.png'
-import styled from 'styled-components'
+import styled from 'styled-components';
+import LOGO_IMG from '../../../../public/kao_oboerarenai_man.png';
 /**
  * ロゴ
  */
@@ -10,12 +10,7 @@ const Span = styled.span`
 
 const AppLogo = () => (
     <Span>
-        <Image
-            src={LOGO_IMG}
-            alt="Vercel Logo"
-            width={100}
-            height={100}
-        />
+        <Image src={LOGO_IMG} alt="Vercel Logo" width={100} height={100} />
     </Span>
 );
 
