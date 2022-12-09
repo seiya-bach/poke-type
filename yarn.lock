@@ -1800,6 +1800,14 @@
     "@mui/utils" "^5.10.16"
     prop-types "^15.8.1"
 
+"@mui/styled-engine-sc@^5.10.16":
+  version "5.10.16"
+  resolved "https://registry.npmjs.org/@mui/styled-engine-sc/-/styled-engine-sc-5.10.16.tgz"
+  integrity sha512-Uxz+Pk0BuD15MQb8Gmk879LfEqez9njp/DKaPQQTPYmyMBqAaBqrqCyLxNWbNsd4vwAYrBls5mKzeliZu+N5Ig==
+  dependencies:
+    "@babel/runtime" "^7.20.1"
+    prop-types "^15.8.1"
+
 "@mui/styled-engine@^5.10.16":
   version "5.10.16"
   resolved "https://registry.npmjs.org/@mui/styled-engine/-/styled-engine-5.10.16.tgz"
@@ -3302,7 +3310,7 @@
   resolved "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.1.tgz"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/styled-components@^5.1.26":
+"@types/styled-components@^5.1.14", "@types/styled-components@^5.1.26":
   version "5.1.26"
   resolved "https://registry.npmjs.org/@types/styled-components/-/styled-components-5.1.26.tgz"
   integrity sha512-KuKJ9Z6xb93uJiIyxo/+ksS7yLjS1KzG6iv5i78dhVg/X3u5t1H7juRWqVmodIdz6wGVaIApo1u01kmFRdJHVw==
@@ -12439,7 +12447,7 @@ style-to-object@^0.3.0, style-to-object@0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-styled-components@^5.3.6, "styled-components@>= 2":
+styled-components@^5.3.1, styled-components@^5.3.6, "styled-components@>= 2":
   version "5.3.6"
   resolved "https://registry.npmjs.org/styled-components/-/styled-components-5.3.6.tgz"
   integrity sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg==
