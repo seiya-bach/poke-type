@@ -17,7 +17,7 @@ export default function BasicGrid() {
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid xs={3}>
-                    <Item>あく x 2</Item>
+                    <Item sx={{ bgcolor: 'yellow' }}>あく x 2</Item>
                 </Grid>
                 <Grid xs={3}>
                     <Item>xs=4</Item>
